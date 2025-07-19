@@ -43,13 +43,12 @@ const About = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             viewport={{ once: true }}
           >
-            di desain dengan bahasa react, nextjs, threejs masih banyak lagi
-            
-            kami menghadirkan solusi web yang tidak hanya cantik, tapi juga powerful!
+            Didesain profesional dengan teknologi modern seperti GSAP, Three.js, dan animasi Lottie karakter eksklusif Wanz. 
+            Kami menghadirkan solusi web yang tidak hanya cantik, tapi juga powerful!
           </motion.p>
         </div>
 
-        {}
+        {/* Stats Section */}
         <motion.div
           className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16"
           initial={{ opacity: 0, y: 30 }}
@@ -76,7 +75,7 @@ const About = () => {
           ))}
         </motion.div>
 
-        {}
+        {/* Technologies Section */}
         <div className="text-center mb-12">
           <motion.h3
             className="text-3xl font-bold text-gray-900 dark:text-white mb-8"
@@ -85,7 +84,7 @@ const About = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            bahasa dan libarry yang kami gunakan 
+            Teknologi yang Kami Gunakan
           </motion.h3>
 
           <motion.div
@@ -112,7 +111,7 @@ const About = () => {
           </motion.div>
         </div>
 
-        {}
+        {/* CTA Section */}
         <motion.div
           className="text-center"
           initial={{ opacity: 0, y: 30 }}
