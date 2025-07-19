@@ -131,8 +131,8 @@ const About = () => {
             Diskusi Proyek Anda
           </motion.a>
         </motion.div>
+      </div>
     </section>
-          </div>
   );
 };
 
